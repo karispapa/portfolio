@@ -10,7 +10,7 @@ const SocialLinks = () => {
           LinkedIn <FaLinkedin size={25} />
         </>
       ),
-      href: 'https://linkedin.com',
+      href: 'https://www.linkedin.com/in/samuel-kariuki-210a358b/',
       style: 'rounded-tr-md',
     },
     {

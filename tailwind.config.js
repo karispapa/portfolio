@@ -9,6 +9,7 @@ export default {
       colors: {
         lightSlateGray: '#778899',
         node: '#3c873a',
+        primary: 'rgba(85, 64, 174, 0.95)',
       },
     },
   },

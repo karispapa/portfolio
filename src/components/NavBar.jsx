@@ -31,7 +31,7 @@ const NavBar = () => {
       <ul className="hidden md:flex">
         {navLinks.map((link, index) => (
           <li
-            className="cursor-pointer px-4 font-medium capitalize text-gray-500 duration-200 hover:scale-105"
+            className="cursor-pointer px-4 font-medium capitalize text-gray-400 duration-200 hover:scale-105"
             key={index}
           >
             <Link to={link} smooth duration={500}>
