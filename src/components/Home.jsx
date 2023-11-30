@@ -16,7 +16,7 @@ const Home = () => {
           <p className="max-w-md py-4 text-gray-400">
             I have 0 year of experience building and designing software.
             Currently, I love to work on web applications using technologies
-            like React, tailwind, Next JS and GraphQl
+            like React, tailwind, Node and Express
           </p>
           <div>
             <Link
@@ -36,7 +36,7 @@ const Home = () => {
           <img
             src={heroImage}
             alt="my profile"
-            className="mx-auto h-full  w-2/3 rounded-2xl object-contain md:w-full"
+            className="mx-auto h-full  w-2/3 rounded-full object-contain md:w-full"
           />
         </div>
       </div>
