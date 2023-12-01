@@ -20,3 +20,28 @@
 .to-hero-gradient-to {
   --tw-gradient-to: rgba(65, 47, 144, 0.93);
 }
+
+.bg-hero {
+  background-image: url(./assets/bg-hero.jpg);
+  background-size: cover;
+  filter: blur(100px);
+}
+
+.text {
+  background-color: rgba(
+    0,
+    0,
+    0,
+    0.4
+  ); /* Black partially transparent background */
+  color: white;
+  font-weight: bold;
+  border: 3px solid #ffffff;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 80%;
+  padding: 20px;
+  text-align: center;
+}

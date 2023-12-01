@@ -1,49 +1,10 @@
-import { FaGithub, FaLinkedin } from 'react-icons/fa'
-import { HiOutlineMail } from 'react-icons/hi'
-import { BsFillPersonLinesFill } from 'react-icons/bs'
+import { socialLinks } from '../utils/utils'
 
 const SocialLinks = () => {
-  const links = [
-    {
-      child: (
-        <>
-          LinkedIn <FaLinkedin size={25} />
-        </>
-      ),
-      href: 'https://www.linkedin.com/in/samuel-kariuki-210a358b/',
-      style: 'rounded-tr-md',
-    },
-    {
-      child: (
-        <>
-          Github: <FaGithub size={25} />
-        </>
-      ),
-      href: 'https://github.com/karispapa',
-    },
-    {
-      child: (
-        <>
-          Mail <HiOutlineMail size={25} />{' '}
-        </>
-      ),
-      href: 'mailto:skariuki@gmail.com',
-    },
-    {
-      child: (
-        <>
-          Resume <BsFillPersonLinesFill size={25} />{' '}
-        </>
-      ),
-      href: '/resume.pdf',
-      download: 'download',
-      style: 'rounded-br-md',
-    },
-  ]
   return (
     <div>
       <ul className=" fixed left-0 top-[35%] hidden flex-col  lg:flex">
-        {links.map(({ child, href, download, style }, index) => (
+        {socialLinks.map(({ child, href, download, style }, index) => (
           <li
             key={index}
             className={

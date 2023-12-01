@@ -17,7 +17,7 @@ const Portfolio = () => {
   return (
     <div
       name="portfolio"
-      className="w-full bg-gradient-to-b  from-black  to-gray-800 pt-32 text-white 
+      className="w-full  from-black  to-gray-800 pt-32 text-white 
       md:h-screen md:pb-6 md:pt-40"
     >
       <div
@@ -25,10 +25,12 @@ const Portfolio = () => {
         flex-col justify-center p-4"
       >
         <div className="pb-6">
-          <p className="inline border-b-4 border-gray-500 text-4xl font-bold">
+          <p className="text-primary inline border-b-4 border-gray-500 text-4xl font-bold uppercase">
             Portfolio
           </p>
-          <p className="py-6">Check Out my work right here</p>
+          <p className="font-header  pt-6 text-xl font-medium capitalize text-black sm:text-2xl lg:text-3xl">
+            Check Out my work right here
+          </p>
         </div>
         <div
           className="grid gap-8 sm:grid-cols-2 
