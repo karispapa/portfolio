@@ -3,22 +3,27 @@ import installNode from '../assets/portfolio/installNode.jpg'
 import navbar from '../assets/portfolio/navbar.jpg'
 import reactParallax from '../assets/portfolio/reactParallax.jpg'
 import reactSmooth from '../assets/portfolio/reactSmooth.jpg'
-import reactWeather from '../assets/portfolio/reactWeather.jpg'
+
+import tictactoe from '../assets/portfolio/tictactoe.jpg'
 
 const Portfolio = () => {
   const portfolios = [
-    arrayDestruct,
-    installNode,
-    navbar,
-    reactParallax,
-    reactSmooth,
-    reactWeather,
+    { imageSrc: arrayDestruct, demoLink: '', codeLink: '' },
+    { imageSrc: installNode, demoLink: '', codeLink: '' },
+    { imageSrc: navbar, demoLink: '', codeLink: '' },
+    { imageSrc: reactParallax, demoLink: '', codeLink: '' },
+    { imageSrc: reactSmooth, demoLink: '', codeLink: '' },
+    {
+      imageSrc: tictactoe,
+      demoLink: 'https://beamcmms.com/',
+      codeLink: 'https://github.com/karispapa/tic-tac-toe',
+    },
   ]
   return (
     <div
       name="portfolio"
-      className="w-full  from-black  to-gray-800 pt-32 text-white 
-      md:h-screen md:pb-6 md:pt-40"
+      className=" w-full pt-24
+      text-white md:h-screen md:pb-6 "
     >
       <div
         className="mx-auto flex h-full w-full max-w-screen-lg 
@@ -36,26 +41,33 @@ const Portfolio = () => {
           className="grid gap-8 sm:grid-cols-2 
         sm:px-0 md:grid-cols-3"
         >
-          {portfolios.map((imageSrc, index) => (
-            <div key={index} className="rounded-lg shadow-md shadow-gray-600">
+          {portfolios.map(({ imageSrc, demoLink, codeLink }, index) => (
+            <div
+              key={index}
+              className="rounded-lg text-gray-800 shadow-md shadow-gray-600"
+            >
               <img
                 src={imageSrc}
                 alt=""
                 className="rounded-md duration-300 hover:scale-105"
               />
               <div className="flex items-center justify-center">
-                <button
-                  className="m-4 w-1/2 px-6 py-3 first-letter:duration-200
-               hover:scale-105"
-                >
-                  Demo
-                </button>
-                <button
-                  className="m-4 w-1/2 px-6 py-3 first-letter:duration-200 
-              hover:scale-105"
-                >
-                  Code
-                </button>
+                <a href={demoLink} target="_blank" rel="noreferrer">
+                  <button
+                    className="m-4 w-1/2 px-6 py-3 first-letter:duration-300
+               hover:scale-110"
+                  >
+                    Demo
+                  </button>
+                </a>
+                <a target="_blank" rel="noreferrer" href={codeLink}>
+                  <button
+                    className="m-4 w-1/2 px-6 py-3 first-letter:duration-300 
+              hover:scale-110"
+                  >
+                    Code
+                  </button>
+                </a>
               </div>
             </div>
           ))}
