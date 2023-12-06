@@ -24,10 +24,10 @@ const Home = () => {
           <h2 className="font-header text-center text-4xl text-white sm:text-left sm:text-5xl md:text-6xl">
             Hello I'm Samuel Kariuki
           </h2>
-          <p className=" py-4 text-center text-lg text-gray-200">
+          <p className=" py-4  text-lg text-gray-200">
             A lover of functional programming and fully self taught. Currently,
             I love to work on web applications using technologies like React,
-            tailwind, Node and Express
+            Redux, mongoDB, tailwind, Node and Express
           </p>
           <div className="flex flex-col justify-center pt-3 sm:flex-row sm:pt-5 lg:justify-start">
             <div className="flex items-center justify-center space-x-2 pl-0 sm:justify-start md:pl-1">

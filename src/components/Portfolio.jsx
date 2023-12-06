@@ -1,18 +1,39 @@
-import arrayDestruct from '../assets/portfolio/arrayDestruct.jpg'
-import installNode from '../assets/portfolio/installNode.jpg'
-import navbar from '../assets/portfolio/navbar.jpg'
-import reactParallax from '../assets/portfolio/reactParallax.jpg'
-import reactSmooth from '../assets/portfolio/reactSmooth.jpg'
+import beambudget from '../assets/portfolio/beambudgetapi.png'
+import beamcmms from '../assets/portfolio/beamcmmsapi.png'
+import calculator from '../assets/portfolio/calculator.png'
+import recipes from '../assets/portfolio/odinrecipes.png'
+import budget from '../assets/portfolio/beambudget.png'
 
 import tictactoe from '../assets/portfolio/tictactoe.jpg'
 
 const Portfolio = () => {
   const portfolios = [
-    { imageSrc: arrayDestruct, demoLink: '', codeLink: '' },
-    { imageSrc: installNode, demoLink: '', codeLink: '' },
-    { imageSrc: navbar, demoLink: '', codeLink: '' },
-    { imageSrc: reactParallax, demoLink: '', codeLink: '' },
-    { imageSrc: reactSmooth, demoLink: '', codeLink: '' },
+    {
+      imageSrc: beambudget,
+      demoLink:
+        'https://www.postman.com/beamsystems/workspace/beam-budget/overview',
+      codeLink: 'https://github.com/karispapa/BeamBudget_fs',
+    },
+    {
+      imageSrc: beamcmms,
+      demoLink: 'https://www.postman.com/beamsystems/workspace/beam-cmms/',
+      codeLink: 'https://github.com/karispapa/beam_cmms',
+    },
+    {
+      imageSrc: calculator,
+      demoLink: 'https://karispapa.github.io/calculator/',
+      codeLink: 'https://github.com/karispapa/calculator',
+    },
+    {
+      imageSrc: recipes,
+      demoLink: 'https://karispapa.github.io/odin-recipes/',
+      codeLink: 'https://github.com/karispapa/odin-recipes',
+    },
+    {
+      imageSrc: budget,
+      demoLink: 'https://github.com/karispapa/React-Budget-App',
+      codeLink: 'https://github.com/karispapa/React-Budget-App',
+    },
     {
       imageSrc: tictactoe,
       demoLink: 'https://beamcmms.com/',
@@ -22,15 +43,15 @@ const Portfolio = () => {
   return (
     <div
       name="portfolio"
-      className=" w-full pt-24
-      text-white md:h-screen md:pb-6 "
+      className=" md:h-scree w-full
+      pt-24 text-white md:pb-6 "
     >
       <div
         className="mx-auto flex h-full w-full max-w-screen-lg 
         flex-col justify-center p-4"
       >
         <div className="pb-6">
-          <p className="text-primary inline border-b-4 border-gray-500 text-4xl font-bold uppercase">
+          <p className="inline border-b-4 border-gray-500 text-4xl font-bold uppercase text-primary">
             Portfolio
           </p>
           <p className="font-header  pt-6 text-xl font-medium capitalize text-black sm:text-2xl lg:text-3xl">
