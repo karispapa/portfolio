@@ -1,5 +1,5 @@
-import html from '../assets/html.png'
-import css from '../assets/css.png'
+import typescript from '../assets/typescript.png'
+import NestJS from '../assets/nest.png'
 import javascript from '../assets/javascript.png'
 import reactImage from '../assets/react.png'
 import mongodb from '../assets/mongodb.png'
@@ -10,12 +10,12 @@ import node from '../assets/node.png'
 
 const Experience = () => {
   const techs = [
-    { name: html, title: 'HTML', style: 'shadow-orange-500' },
-    { name: css, title: 'CSS', style: 'shadow-blue-500' },
+    { name: typescript, title: 'Typescript', style: 'shadow-blue-500' },
+    { name: NestJS, title: 'NestJS', style: 'shadow-red-500' },
     { name: javascript, title: 'Javascript', style: 'shadow-yellow-500' },
     { name: reactImage, title: 'React', style: 'shadow-blue-500' },
-    { name: mongodb, title: 'MongoDB', style: 'shadow-white' },
-    { name: redux, title: 'Redux', style: 'shadow-pink-400' },
+    { name: mongodb, title: 'MongoDB', style: 'shadow-green-300' },
+    { name: redux, title: 'Redux', style: 'shadow-purple-400' },
     { name: github, title: 'Github', style: 'shadow-gray-400' },
     { name: tailwind, title: 'Tailwind', style: 'shadow-sky-400' },
     { name: node, title: 'node', style: 'shadow-node' },

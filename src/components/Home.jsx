@@ -17,7 +17,7 @@ const Home = () => {
           <img
             src={heroImage}
             alt="my profile"
-            className="border-primary mx-auto h-56 rounded-full border-8 lg:h-72"
+            className="mx-auto h-56 rounded-full border-8 border-primary lg:h-72"
           />
         </div>
         <div className="flex h-full flex-col justify-center">
@@ -27,7 +27,8 @@ const Home = () => {
           <p className=" py-4  text-lg text-gray-200">
             A lover of functional programming and fully self taught. Currently,
             I love to work on web applications using technologies like React,
-            Redux, mongoDB, tailwind, Node and Express
+            Redux, mongoDB, tailwind, Node, NestJs, Typescript, postgres and
+            Express
           </p>
           <div className="flex flex-col justify-center pt-3 sm:flex-row sm:pt-5 lg:justify-start">
             <div className="flex items-center justify-center space-x-2 pl-0 sm:justify-start md:pl-1">
