@@ -1,10 +1,10 @@
 import beambudget from '../assets/portfolio/beambudgetapi.png'
 import beamcmms from '../assets/portfolio/beamcmmsapi.png'
-import calculator from '../assets/portfolio/calculator.png'
-import recipes from '../assets/portfolio/odinrecipes.png'
+// import calculator from '../assets/portfolio/calculator.png'
+// import recipes from '../assets/portfolio/odinrecipes.png'
 import budget from '../assets/portfolio/beambudget.png'
 
-import tictactoe from '../assets/portfolio/tictactoe.jpg'
+// import tictactoe from '../assets/portfolio/tictactoe.jpg'
 
 const Portfolio = () => {
   const portfolios = [
@@ -19,26 +19,26 @@ const Portfolio = () => {
       demoLink: 'https://www.postman.com/beamsystems/workspace/beam-cmms/',
       codeLink: 'https://github.com/karispapa/beam_cmms',
     },
-    {
-      imageSrc: calculator,
-      demoLink: 'https://karispapa.github.io/calculator/',
-      codeLink: 'https://github.com/karispapa/calculator',
-    },
-    {
-      imageSrc: recipes,
-      demoLink: 'https://karispapa.github.io/odin-recipes/',
-      codeLink: 'https://github.com/karispapa/odin-recipes',
-    },
+    // {
+    //   imageSrc: calculator,
+    //   demoLink: 'https://karispapa.github.io/calculator/',
+    //   codeLink: 'https://github.com/karispapa/calculator',
+    // },
+    // {
+    //   imageSrc: recipes,
+    //   demoLink: 'https://karispapa.github.io/odin-recipes/',
+    //   codeLink: 'https://github.com/karispapa/odin-recipes',
+    // },
     {
       imageSrc: budget,
       demoLink: 'https://github.com/karispapa/React-Budget-App',
       codeLink: 'https://github.com/karispapa/React-Budget-App',
     },
-    {
-      imageSrc: tictactoe,
-      demoLink: 'https://beamcmms.com/',
-      codeLink: 'https://github.com/karispapa/tic-tac-toe',
-    },
+    // {
+    //   imageSrc: tictactoe,
+    //   demoLink: 'https://beamcmms.com/',
+    //   codeLink: 'https://github.com/karispapa/tic-tac-toe',
+    // },
   ]
   return (
     <div
